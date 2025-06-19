@@ -1,8 +1,12 @@
 {
   "name": "Jimin Park",
   "location": "Atlanta, GA",
-  "headline": "Data Scientist & Machine Learning Engineer | Passionate about Deep Learning, Model Optimization, and Real-world Impact",
-  "biography": "Master\u2019s student in Computer Science at Georgia Tech specializing in Machine Learning. With experience in both research and industry, I\u2019ve worked on optimizing TinyML models, time-series forecasting, and building scalable ML pipelines. Previously, I contributed to national R&D strategies through data-driven policy research at KIST and KIPF. I\u2019m passionate about building interpretable, efficient, and impactful machine learning systems.",
+  "school": "MSCS @ Georgia Tech",
+  "headline": [
+    "Data Scientist & Machine Learning Engineer",
+    "Passionate about Deep Learning, Model Optimization, and Real-world Impact"
+  ],
+  "biography": "Master's student in Computer Science at Georgia Tech specializing in Machine Learning. With experience in both research and industry, I've worked on optimizing TinyML models, time-series forecasting, and building scalable ML pipelines. Previously, I contributed to national R&D strategies through data-driven policy research at KIST and KIPF. I'm passionate about building interpretable, efficient, and impactful machine learning systems.",
   "experience": [
     {
       "company": "KIST (Korea Institute of Science & Technology)",
@@ -10,7 +14,7 @@
       "date": "Apr 2023 \u2013 Apr 2024",
       "bullets": [
         "Processed 5M+ Web of Science records with PySpark & SQL, boosting Top-1% journal recall to 92% (+9 pp) and cutting literature triage by 49%",
-        "Shipped CI/CD dashboards on 12 OECD datasets that forecasted research KPIs and informed Korea\u2019s 5-year R&D roadmap",
+        "Shipped CI/CD dashboards on 12 OECD datasets that forecasted research KPIs and informed Korea's 5-year R&D roadmap",
         "First-author presenter at Society for Engineering & Technology Management; mined 60 expert interviews via NLP topic modeling to surface policy gaps"
       ]
     },

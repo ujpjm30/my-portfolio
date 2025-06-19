@@ -1,6 +1,5 @@
 import { styled } from '@mui/material/styles';
 import Button from '@mui/material/Button';
-import Box from '@mui/material/Box';
 
 const StyledButton = styled(Button)(({ theme }) => ({
   background: 'linear-gradient(45deg, #4C0529 30%, #900C3F 90%)',
@@ -12,16 +11,9 @@ const StyledButton = styled(Button)(({ theme }) => ({
   padding: '0 30px',
 }));
 
-const RootBox = styled(Box)({
-  textAlign: 'center',
-  marginTop: '50px',
-});
-
 const CustomButton = ({ children }) => {
   return (
-    <RootBox>
-      <StyledButton>{children}</StyledButton>
-    </RootBox>
+    <StyledButton>{children}</StyledButton>
   );
 };
 
