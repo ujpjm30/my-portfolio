@@ -1,0 +1,45 @@
+{
+  "name": "Jimin Park",
+  "location": "Atlanta, GA",
+  "headline": "Data Scientist & Machine Learning Engineer | Passionate about Deep Learning, Model Optimization, and Real-world Impact",
+  "biography": "Master\u2019s student in Computer Science at Georgia Tech specializing in Machine Learning. With experience in both research and industry, I\u2019ve worked on optimizing TinyML models, time-series forecasting, and building scalable ML pipelines. Previously, I contributed to national R&D strategies through data-driven policy research at KIST and KIPF. I\u2019m passionate about building interpretable, efficient, and impactful machine learning systems.",
+  "experience": [
+    {
+      "company": "KIST (Korea Institute of Science & Technology)",
+      "title": "Data Scientist / ML Engineer",
+      "date": "Apr 2023 \u2013 Apr 2024",
+      "bullets": [
+        "Processed 5M+ Web of Science records with PySpark & SQL, boosting Top-1% journal recall to 92% (+9 pp) and cutting literature triage by 49%",
+        "Shipped CI/CD dashboards on 12 OECD datasets that forecasted research KPIs and informed Korea\u2019s 5-year R&D roadmap",
+        "First-author presenter at Society for Engineering & Technology Management; mined 60 expert interviews via NLP topic modeling to surface policy gaps"
+      ]
+    },
+    {
+      "company": "KISTEP (Korea Institute of Science & Technology Evaluation and Planning)",
+      "title": "Data Scientist / ML Engineer",
+      "date": "Jan 2022 \u2013 Apr 2023",
+      "bullets": [
+        "Automated AHP scoring ETL, slashing review turnaround from 3 weeks \u2192 3 days (-90%) and improving budget allocation accuracy by 12%",
+        "Built a feature store with weekly retraining pipelines, delivering reproducible economic-risk models and versioned artifacts in AWS QuickSight"
+      ]
+    },
+    {
+      "company": "KIPF (Korea Institute of Public Finance)",
+      "title": "Data Scientist / ML Engineer",
+      "date": "Jun 2021 \u2013 Dec 2021",
+      "bullets": [
+        "Unified 150+ global policy datasets via Python/SQL ETL, saving 200+ analyst hours and producing features for large-scale feasibility models"
+      ]
+    },
+    {
+      "company": "KIET (Korea Institute for Industrial Economics & Trade)",
+      "title": "Data Scientist / ML Engineer intern",
+      "date": "Jul 2020 \u2013 Apr 2021",
+      "bullets": [
+        "Owned the ISTANS platform\u2014kept 99.9% uptime and ran nightly ETL that pulled 1M+ new records spanning 50+ industrial KPIs",
+        "Automated 'Industrial Key Indicators' dashboards with Python + SQL, cutting data-publish latency 4h \u2192 30min (-87%) and giving analysts near-real-time trend views",
+        "Built a news text-mining & forecasting pipeline (KoNLPy, gensim, LSTM) processing 20K+ articles/day to generate sector sentiment and one-month IPI forecasts (MAPE 3.2%) cited in quarterly policy briefs"
+      ]
+    }
+  ]
+}
