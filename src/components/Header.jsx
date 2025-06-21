@@ -10,6 +10,31 @@ const Header = ({ mode, onToggleTheme }) => {
     }
   };
 
+  const handleScrollToProjects = () => {
+    const projects = document.getElementById("projects-section");
+    if (projects) {
+      projects.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const handleScrollToSkills = () => {
+    const skills = document.getElementById("skills-section");
+    if (skills) {
+      skills.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const handleScrollToContact = () => {
+    const contact = document.getElementById("contact");
+    if (contact) {
+      contact.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <AppBar
       position="fixed"
@@ -23,7 +48,7 @@ const Header = ({ mode, onToggleTheme }) => {
     >
       <Toolbar sx={{ minHeight: 56, px: { xs: 2, sm: 6 } }}>
         <Box sx={{ flexGrow: 1 }}>
-          <Typography variant="h6" fontWeight={700} letterSpacing={1}>
+          <Typography onClick={scrollToTop} variant="h6" fontWeight={700} letterSpacing={1}>
             Jimin Park
           </Typography>
         </Box>
@@ -33,6 +58,27 @@ const Header = ({ mode, onToggleTheme }) => {
           onClick={handleScrollToExperience}
         >
           Experience
+        </Button>
+        <Button
+          color="inherit"
+          sx={{ fontWeight: 600, fontSize: "1rem", letterSpacing: 1, mr: 1 }}
+          onClick={handleScrollToProjects}
+        >
+          Projects
+        </Button>
+        <Button
+          color="inherit"
+          sx={{ fontWeight: 600, fontSize: "1rem", letterSpacing: 1, mr: 1 }}
+          onClick={handleScrollToSkills}
+        >
+          Skills
+        </Button>
+        <Button
+          color="inherit"
+          sx={{ fontWeight: 600, fontSize: "1rem", letterSpacing: 1, mr: 1 }}
+          onClick={handleScrollToContact}
+        >
+          Contact
         </Button>
         <IconButton color="inherit" onClick={onToggleTheme}>
           {mode === 'light' ? <Brightness4Icon /> : <Brightness7Icon />}

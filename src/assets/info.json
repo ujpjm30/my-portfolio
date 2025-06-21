@@ -2,6 +2,13 @@
   "name": "Jimin Park",
   "location": "Atlanta, GA",
   "school": "MSCS @ Georgia Tech",
+  "resume": "https://drive.google.com/file/d/1gHMe-T6zWhUbiMd_BTgS6jQHoZLYFRYY/view?usp=sharing",
+  "contact": {
+    "email": "ujpjm21@gmail.com",
+    "phone": "(678)897-1816",
+    "linkedin": "https://www.linkedin.com/in/jimin-park-ml/",
+    "github": "https://github.com/ujpjm30"
+  },
   "headline": [
     "Data Scientist & Machine Learning Engineer",
     "Passionate about Deep Learning, Model Optimization, and Real-world Impact"
@@ -11,7 +18,8 @@
     {
       "company": "KIST (Korea Institute of Science & Technology)",
       "title": "Data Scientist / ML Engineer",
-      "date": "Apr 2023 \u2013 Apr 2024",
+      "link": "https://www.kist.re.kr/eng/index.do",
+      "date": "Apr 2023 – Apr 2024",
       "bullets": [
         "Processed 5M+ Web of Science records with PySpark & SQL, boosting Top-1% journal recall to 92% (+9 pp) and cutting literature triage by 49%",
         "Shipped CI/CD dashboards on 12 OECD datasets that forecasted research KPIs and informed Korea's 5-year R&D roadmap",
@@ -21,16 +29,18 @@
     {
       "company": "KISTEP (Korea Institute of Science & Technology Evaluation and Planning)",
       "title": "Data Scientist / ML Engineer",
-      "date": "Jan 2022 \u2013 Apr 2023",
+      "link": "https://www.kistep.re.kr/eng/",
+      "date": "Jan 2022 – Apr 2023",
       "bullets": [
-        "Automated AHP scoring ETL, slashing review turnaround from 3 weeks \u2192 3 days (-90%) and improving budget allocation accuracy by 12%",
+        "Automated AHP scoring ETL, slashing review turnaround from 3 weeks → 3 days (-90%) and improving budget allocation accuracy by 12%",
         "Built a feature store with weekly retraining pipelines, delivering reproducible economic-risk models and versioned artifacts in AWS QuickSight"
       ]
     },
     {
       "company": "KIPF (Korea Institute of Public Finance)",
       "title": "Data Scientist / ML Engineer",
-      "date": "Jun 2021 \u2013 Dec 2021",
+      "link": "https://www.kipf.re.kr/eng/index.do",
+      "date": "Jun 2021 – Dec 2021",
       "bullets": [
         "Unified 150+ global policy datasets via Python/SQL ETL, saving 200+ analyst hours and producing features for large-scale feasibility models"
       ]
@@ -38,11 +48,140 @@
     {
       "company": "KIET (Korea Institute for Industrial Economics & Trade)",
       "title": "Data Scientist / ML Engineer intern",
-      "date": "Jul 2020 \u2013 Apr 2021",
+      "link": "https://www.kiet.re.kr/",
+      "date": "Jul 2020 – Apr 2021",
       "bullets": [
-        "Owned the ISTANS platform\u2014kept 99.9% uptime and ran nightly ETL that pulled 1M+ new records spanning 50+ industrial KPIs",
-        "Automated 'Industrial Key Indicators' dashboards with Python + SQL, cutting data-publish latency 4h \u2192 30min (-87%) and giving analysts near-real-time trend views",
+        "Owned the ISTANS platform—kept 99.9% uptime and ran nightly ETL that pulled 1M+ new records spanning 50+ industrial KPIs",
+        "Automated 'Industrial Key Indicators' dashboards with Python + SQL, cutting data-publish latency 4h → 30min (-87%) and giving analysts near-real-time trend views",
         "Built a news text-mining & forecasting pipeline (KoNLPy, gensim, LSTM) processing 20K+ articles/day to generate sector sentiment and one-month IPI forecasts (MAPE 3.2%) cited in quarterly policy briefs"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Knowledge Distillation for TinyML/Embedded AI",
+      "thumbnail": "src/assets/images/tiny_ml.png",
+      "links": {
+        "ppt": "https://drive.google.com/file/d/1sd_oeqig0TquTzAJt3anl_aWL-5aUZId/view?usp=sharing",
+        "pdf": "https://drive.google.com/file/d/1BD6aZgyqf-1SwFtNTs1dmEPYYSEiWMdV/view?usp=sharing"
+      },
+      "description": {
+        "bullets": [
+          "Compressed 95M-param Transformer to 72K (-99.9%) via KD, sustaining 74% TESS accuracy.",
+          "Deployed model to < 300 KB Flash on Cortex-M7, enabling real-time inference with 1% accuracy delta."
+        ]
+      },
+      "skills": [
+        "PyTorch",
+        "TinyML",
+        "Transformers"
+      ]
+    },
+    {
+      "name": "LLMonopoly — Multi-LLM Ensemble Agent",
+      "thumbnail": "src/assets/images/llmonopoly.png",
+      "links": {
+        "ppt": "https://drive.google.com/file/d/1bOIWLVHag-TJEHgVwDr-6W4qOkbjYw16/view?usp=sharing",
+        "github": "https://github.com/ujpjm30/LLMonopoly"
+      },
+      "description": {
+        "bullets": [
+          "Orchestrated an async ensemble of 5 open-source LLMs, boosting win-rate from 25 % → 50 % across 100 Monopoly rounds.",
+          "Maintained p95 latency ≤ 5.7 s via concurrent routing, context caching, and Dockerized micro-service deployment."
+        ]
+      },
+      "skills": [
+        "Python 3.10",
+        "FastAPI",
+        "Ollama (Llama 2/3, Mistral, Gemini)",
+        "Docker",
+        "GitHub Actions CI/CD"
+      ]
+    },
+    {
+      "name": "Detecting User Actions from Mouse Events",
+      "thumbnail": "src/assets/images/mouse_event.png",
+      "links": {
+        "pdf": "https://drive.google.com/file/d/1RjI7G1DJw_XMhIPSygPDxjSSjZpxrVgo/view?usp=sharing",
+        "github": "https://github.com/ujpjm30/Mouse-Event---ML"
+      },
+      "description": {
+        "bullets": [
+          "Built a streaming pipeline that converts 0.1-second mouse events into 32-step windows with 28 engineered features, enabling an LSTM classifier to reach 86 % accuracy on browsing / chatting / reading tasks.",
+          "Bench-marked LightGBM, Random Forest, KNN, LSTM under 5-fold CV and measured inference time over 100 runs, selecting LightGBM as a low-latency CPU fallback while documenting the accuracy-latency trade-off.",
+          "Visualised feature separability by clustering with K-Means + PCA & t-SNE, which informed an oversampling strategy to mitigate class imbalance."
+        ]
+      },
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "LightGBM",
+        "PyTorch (LSTM)",
+        "Matplotlib",
+        "t-SNE"
+      ]
+    },
+    {
+      "name": "Implicit Emotion Classification using BERTs with Knowledge Incorporation",
+      "thumbnail": "src/assets/images/bert.png",
+      "links": {
+        "pdf": "https://drive.google.com/file/d/1QuYQgEdUQ5sAP2a66CzojOmbXqR2W1Dt/view?usp=sharing",
+        "github": "https://github.com/ujpjm30/Implicit-Emotion-Detection"
+      },
+      "description": {
+        "bullets": [
+          "Integrated SenticNet into the K-BERT framework via a sentence-tree injection with soft-position embeddings + visible matrix, raising implicit-emotion accuracy from 64.4 % (ConceptNet) / 84.5 % (naïve SenticNet) to 88.1 % (+3.6 pp).",
+          "Conducted ablation by removing each noise-reduction module, showing accuracy drops to 87.3 % without soft-position and 85.4 % without the visible matrix, quantifying their individual impact.",
+          "Replaced the BERT baseline with RoBERTa + BPE tokenizer and converted SenticNet into SPO triples, eliminating over-tokenization noise and enabling smoother English fine-tuning. "
+        ]
+      },
+      "skills": [
+        "Python",
+        "PyTorch",
+        "RoBERTa",
+        "K-BERT framework",
+        "SenticNet"
+      ]
+    },
+    {
+      "name": "IEQ Prediction with Machine Learning",
+      "thumbnail": "src/assets/images/kendeda.png",
+      "links": {
+        "pdf": "https://drive.google.com/file/d/1uvozJv7PzcIBE-p2CtzHvZ23SUTs9CQR/view?usp=sharing"
+      },
+      "description": {
+        "bullets": [
+          "Conducted A/B-style evaluation comparing LSTM and Random Forest models to forecast indoor temperature trends using IoT sensor data from Kendeda Building; Random Forest achieved RMSE 0.11 and outperformed LSTM by 0.07.",
+          "Processed environmental time-series data with Matplotlib and built ML pipeline to support post-occupancy comfort prediction research."
+        ]
+      },
+      "skills": [
+        "Python",
+        "Scikit-Learn",
+        "Tableau",
+        "AWS"
+      ]
+    },
+    {
+      "name": "Enhancing Vision Transformers with MobileNetV2 for Efficient Image Classification",
+      "thumbnail": "src/assets/images/vision_project.png",
+      "description": {
+        "bullets": [
+          "Co-designed a hybrid ViT whose MobileNetV2 stem cuts parameters 38 % (≈ 43 MB) and reaches 76 % top-1 while converging 4× faster (55 → 15 epochs).",
+          "Exported the best checkpoint to ONNX and measured FP16 inference at 6 ms/img on a T4, confirming edge-camera suitability."
+        ]
+      },
+      "links": {
+        "pdf": "https://drive.google.com/file/d/1U9GXtihineLCHXr99DrFS8ZTyOqRE2Nx/view?usp=sharing"
+      },
+      "skills": [
+        "Python",
+        "PyTorch",
+        "Vision Transformer",
+        "MobileNetV2",
+        "CIFAR-10"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 import info from "../assets/info.json"
-import { Box, Typography, Paper, Divider } from "@mui/material"
+import { Box, Typography, Paper, Divider, Link } from "@mui/material"
 import { useState, useEffect } from "react"
 
 const Experience = () => {
@@ -24,7 +24,7 @@ const Experience = () => {
         };
 
         window.addEventListener('scroll', handleScroll);
-        handleScroll(); // 초기 로드 시에도 체크
+        handleScroll(); 
         
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
@@ -51,7 +51,7 @@ const Experience = () => {
                     fontWeight={600} 
                     textAlign="center" 
                     gutterBottom
-                    sx={{ mb: 4, color: "#2c3e50" }}
+                    sx={{ mb: 4, color: "text.primary" }}
                 >
                     Experience
                 </Typography>
@@ -66,7 +66,7 @@ const Experience = () => {
                                 p: 3,
                                 borderRadius: 2,
                                 backgroundColor: "background.paper",
-                                border: "1px solid #e0e0e0",
+                                border: (theme) => `1px solid ${theme.palette.mode === 'light' ? '#e0e0e0' : '#404040'}`,
                                 opacity: visibleCards.includes(index) ? 1 : 0,
                                 transform: visibleCards.includes(index) ? 'translateY(0)' : 'translateY(30px)',
                                 transition: 'all 0.6s ease-out',
@@ -75,15 +75,33 @@ const Experience = () => {
                             }}
                         >
                             <Box sx={{ mb: 2, textAlign: "left" }}>
-                                <Typography variant="h6" fontWeight={600} color="#2c3e50" gutterBottom>
+                                <Typography variant="h6" fontWeight={600} color="text.primary" gutterBottom>
                                     {exp.title}
                                 </Typography>
                                 
-                                <Typography variant="body1" color="#34495e" fontWeight={500} gutterBottom>
-                                    {exp.company}
+                                <Typography variant="body1" color="text.secondary" fontWeight={500} gutterBottom>
+                                    {exp.link ? (
+                                        <Link 
+                                            href={exp.link} 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                            sx={{ 
+                                                color: 'inherit',
+                                                textDecoration: 'none',
+                                                '&:hover': {
+                                                    textDecoration: 'underline',
+                                                    color: (theme) => theme.palette.primary.main
+                                                }
+                                            }}
+                                        >
+                                            {exp.company}
+                                        </Link>
+                                    ) : (
+                                        exp.company
+                                    )}
                                 </Typography>
                                 
-                                <Typography variant="body2" color="#7f8c8d">
+                                <Typography variant="body2" color="text.secondary">
                                     {exp.date}
                                 </Typography>
                             </Box>
@@ -115,7 +133,7 @@ const Experience = () => {
                                         />
                                         <Typography
                                             variant="body2"
-                                            color="#2c3e50"
+                                            color="text.primary"
                                             lineHeight={1.5}
                                             sx={{ textAlign: "left" }}
                                         >
