@@ -10,14 +10,14 @@
     "github": "https://github.com/ujpjm30"
   },
   "headline": [
-    "Data Scientist & Machine Learning Engineer",
+    "Machine Learning Engineer & Data Scientist",
     "Passionate about Deep Learning, Model Optimization, and Real-world Impact"
   ],
-  "biography": "Master's student in Computer Science at Georgia Tech specializing in Machine Learning. With experience in both research and industry, I've worked on optimizing TinyML models, time-series forecasting, and building scalable ML pipelines. Previously, I contributed to national R&D strategies through data-driven policy research at KIST and KIPF. I'm passionate about building interpretable, efficient, and impactful machine learning systems.",
+  "biography": "Master of Science in Computer Science at Georgia Tech specializing in Machine Learning. With experience in both research and industry, expertise spans designing scalable ML pipelines for cloud and edge environments, implementing time-series forecasting services, and optimizing deep-learning and TinyML models. Roles at KIST, KISTEP, KIPF, and KIET delivered data-driven insights for national R&D planning, fiscal-policy automation, and industrial trend analysis. Building efficient, interpretable, production-ready ML systems for measurable impact.",
   "experience": [
     {
       "company": "KIST (Korea Institute of Science & Technology)",
-      "title": "Data Scientist / ML Engineer",
+      "title": "Machine Learning Engineer / Data Scientist (Research)",
       "link": "https://www.kist.re.kr/eng/index.do",
       "date": "Apr 2023 – Apr 2024",
       "bullets": [
@@ -28,7 +28,7 @@
     },
     {
       "company": "KISTEP (Korea Institute of Science & Technology Evaluation and Planning)",
-      "title": "Data Scientist / ML Engineer",
+      "title": "Machine Learning Engineer / Data Scientist (Research)",
       "link": "https://www.kistep.re.kr/eng/",
       "date": "Jan 2022 – Apr 2023",
       "bullets": [
@@ -38,7 +38,7 @@
     },
     {
       "company": "KIPF (Korea Institute of Public Finance)",
-      "title": "Data Scientist / ML Engineer",
+      "title": "Machine Learning Engineer / Data Scientist (Research)",
       "link": "https://www.kipf.re.kr/eng/index.do",
       "date": "Jun 2021 – Dec 2021",
       "bullets": [
@@ -47,7 +47,7 @@
     },
     {
       "company": "KIET (Korea Institute for Industrial Economics & Trade)",
-      "title": "Data Scientist / ML Engineer intern",
+      "title": "Machine Learning Engineer / Data Scientist (Research) Intern",
       "link": "https://www.kiet.re.kr/",
       "date": "Jul 2020 – Apr 2021",
       "bullets": [
@@ -87,7 +87,7 @@
         ]
       },
       "skills": [
-        "Python 3.10",
+        "Python",
         "FastAPI",
         "Ollama (Llama 2/3, Mistral, Gemini)",
         "Docker",
