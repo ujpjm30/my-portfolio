@@ -105,7 +105,7 @@
         "bullets": [
           "Built a streaming pipeline that converts 0.1-second mouse events into 32-step windows with 28 engineered features, enabling an LSTM classifier to reach 86 % accuracy on browsing / chatting / reading tasks.",
           "Bench-marked LightGBM, Random Forest, KNN, LSTM under 5-fold CV and measured inference time over 100 runs, selecting LightGBM as a low-latency CPU fallback while documenting the accuracy-latency trade-off.",
-          "Visualised feature separability by clustering with K-Means + PCA & t-SNE, which informed an oversampling strategy to mitigate class imbalance."
+          "Visualized feature separability by clustering with K-Means + PCA & t-SNE, which informed an oversampling strategy to mitigate class imbalance."
         ]
       },
       "skills": [
