@@ -32,15 +32,21 @@ const Hero = () => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        justifyContent: "center",
+        justifyContent: "center", // This will center the content vertically
         backgroundColor: "background.default",
         color: "text.primary",
         px: 2,
-        pt: 0,
         position: "relative", // Needed for absolute positioning of the scroll indicator
       }}
     >
-      <Box sx={{ width: "100%", maxWidth: 800, textAlign: "center", flexGrow: 1, display: "flex", flexDirection: "column", justifyContent: "center" }}>
+      <Box sx={{ 
+        width: "100%", 
+        maxWidth: 800, 
+        textAlign: "center", 
+        // Add padding to the bottom to avoid overlapping with the scroll down indicator
+        // The value should be enough to contain the indicator and some breathing room
+        pb: '80px' 
+      }}>
         <Typography variant="h3" fontWeight={700} gutterBottom sx={{ mb: 1 }}>
           {info.name}
         </Typography>
