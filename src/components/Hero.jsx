@@ -1,9 +1,26 @@
 import info from "../assets/info.json";
 import { Typography, Box, useTheme } from "@mui/material";
+import { keyframes } from '@mui/system';
 import CustomButton from "./CustomButton";
 import meImage from '../assets/images/me.jpeg';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const HEADER_HEIGHT = 56;
+
+const scrollAnimation = keyframes`
+  0% {
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(10px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+`;
 
 const Hero = () => {
   const theme = useTheme();
@@ -12,7 +29,7 @@ const Hero = () => {
     <Box
       sx={{
         width: "100vw",
-        minHeight: `calc(100vh - ${HEADER_HEIGHT}px)`, 
+        minHeight: `calc(100vh - ${HEADER_HEIGHT}px)`,
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -21,9 +38,10 @@ const Hero = () => {
         color: "text.primary",
         px: 2,
         pt: 0,
+        position: "relative", // Needed for absolute positioning of the scroll indicator
       }}
     >
-      <Box sx={{ width: "100%", maxWidth: 800, textAlign: "center" }}>
+      <Box sx={{ width: "100%", maxWidth: 800, textAlign: "center", flexGrow: 1, display: "flex", flexDirection: "column", justifyContent: "center" }}>
         <Typography variant="h3" fontWeight={700} gutterBottom sx={{ mb: 1 }}>
           {info.name}
         </Typography>
@@ -166,6 +184,28 @@ const Hero = () => {
             </Box>
             </Box>
         </Box>
+      </Box>
+      <Box 
+        sx={{
+          position: "absolute",
+          bottom: "20px",
+          left: "50%",
+          transform: "translateX(-50%)",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          color: "text.secondary",
+        }}
+      >
+        <Typography variant="body2" sx={{ mb: 1 }}>
+          scroll down to see more
+        </Typography>
+        <KeyboardArrowDownIcon 
+          sx={{ 
+            animation: `${scrollAnimation} 2s infinite`,
+            fontSize: "2rem"
+          }} 
+        />
       </Box>
     </Box>
   );
