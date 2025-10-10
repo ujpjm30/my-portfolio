@@ -2,7 +2,7 @@
   "name": "Jimin Park",
   "location": "Atlanta, GA",
   "school": "MSCS @ Georgia Tech",
-  "resume": "https://drive.google.com/file/d/1gHMe-T6zWhUbiMd_BTgS6jQHoZLYFRYY/view?usp=sharing",
+  "resume": "https://drive.google.com/file/d/1D1fz9dZBbkS_1a2okD6eKRQQkEJfYDeF/view?usp=sharing",
   "contact": {
     "email": "ujpjm21@gmail.com",
     "phone": "(678)897-1816",
@@ -52,7 +52,8 @@
       "link": "https://www.kipf.re.kr/eng/index.do",
       "date": "Jun 2021 – Dec 2021",
       "bullets": [
-        "Unified 150+ global policy datasets via Python/SQL ETL, saving 200+ analyst hours and producing features for large-scale feasibility models"
+        "Developed Python + SQL ETL merging 150+ policy datasets with auto-translation and cleaning, saving 200+ analyst hours annually.",
+        "Enhanced dataset quality and streamlined feature prep, reducing processing time 40%."
       ]
     },
     {
@@ -61,7 +62,7 @@
       "link": "https://www.kiet.re.kr/",
       "date": "Jul 2020 – Apr 2021",
       "bullets": [
-        "Owned the ISTANS platform—kept 99.9% uptime and ran nightly ETL that pulled 1M+ new records spanning 50+ industrial KPIs",
+        "Tuned Python + SQL batch pipelines for 1M+ records, keeping ISTANS (Industrial Statistics Analysis System) analytics 99.9% available and cutting nightly ETL from 4h to 30min (-87%).",
         "Automated 'Industrial Key Indicators' dashboards with Python + SQL, cutting data-publish latency 4h → 30min (-87%) and giving analysts near-real-time trend views",
         "Built a news text-mining & forecasting pipeline (KoNLPy, gensim, LSTM) processing 20K+ articles/day to generate sector sentiment and one-month IPI forecasts (MAPE 3.2%) cited in quarterly policy briefs"
       ]
