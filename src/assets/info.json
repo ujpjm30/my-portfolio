@@ -16,6 +16,16 @@
   "biography": "Master of Science in Computer Science at Georgia Tech specializing in Machine Learning. With a combined 6 years of research and industry experience, I build scalable data and machine learning systems that turn complex data into practical insights. My work spans from developing forecasting and experimentation pipelines to deploying and evaluating ML models in production. Recently at IBM and Georgia Tech, I’ve focused on automating model evaluation workflows and applying responsible, data-driven practices to real-world problems.",
   "experience": [
     {
+      "company": "IBM / Georgia Tech",
+      "title": "Data Scientist Intern ",
+      "link": "https://www.ibm.com/us-en",
+      "date": "May 2025 – Aug 2025",
+      "bullets": [
+        "Built Python workflows to evaluate compliance metrics (bias, fairness, policy adherence) for model evaluation.",
+        "Containerized compliance-to-policy modules with Docker and GitOps for reproducible compliance automation"
+      ]
+    },
+    {
       "company": "KIST (Korea Institute of Science & Technology)",
       "title": "Machine Learning Engineer / Data Scientist ",
       "link": "https://www.kist.re.kr/eng/index.do",
