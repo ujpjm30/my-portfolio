@@ -16,13 +16,14 @@
   "biography": "Master of Science in Computer Science at Georgia Tech specializing in Machine Learning. With a combined 6 years of research and industry experience, I build scalable data and machine learning systems that turn complex data into practical insights. My work spans from developing forecasting and experimentation pipelines to deploying and evaluating ML models in production. Recently at IBM and Georgia Tech, I’ve focused on automating model evaluation workflows and applying responsible, data-driven practices to real-world problems.",
   "experience": [
     {
-      "company": "IBM / Georgia Tech",
-      "title": "Data Scientist Intern ",
+      "company": "IBM / Georgia Tech VSIP",
+      "title": "Machine Learning Engineer Intern ",
       "link": "https://www.ibm.com/us-en",
       "date": "May 2025 – Aug 2025",
       "bullets": [
-        "Built Python workflows to evaluate compliance metrics (bias, fairness, policy adherence) for model evaluation.",
-        "Containerized compliance-to-policy modules with Docker and GitOps for reproducible compliance automation"
+        "Contributed to the CNCF open-source project OSCAL-Compass, developing compliance-to-policy plugins to automate ML model evaluation and policy traceability across cloud environments.",
+        "Reduced false positives by 30% through automated Python workflows for model compliance checks on bias and fairness across AI governance pipelines.",
+        "Cut rollout time by 40% by containerizing compliance modules with Docker and GitOps for reproducible and scalable deployment."
       ]
     },
     {
