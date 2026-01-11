@@ -10,14 +10,14 @@
     "github": "https://github.com/ujpjm30"
   },
   "headline": [
-    "Machine Learning Engineer & Data Scientist",
-    "Passionate about Deep Learning, Model Optimization, and Real-world Impact"
+    "Data Scientist (Machine Learning)",
+    "Driving strategic business impact by solving complex product challenges through Machine Learning, Experimentation, and Scalable Evaluation."
   ],
-  "biography": "Master of Science in Computer Science at Georgia Tech specializing in Machine Learning. With a combined 6 years of research and industry experience, I build scalable data and machine learning systems that turn complex data into practical insights. My work spans from developing forecasting and experimentation pipelines to deploying and evaluating ML models in production. Recently at IBM and Georgia Tech, I’ve focused on automating model evaluation workflows and applying responsible, data-driven practices to real-world problems.",
+  "biography": "Georgia Tech MSCS candidate specializing in Machine Learning, with a focus on driving business impact through data-driven systems. Expertise spans designing experimentation pipelines, forecasting models, and automated evaluation workflows to optimize decision quality. Most recently at IBM and national research institutes, focused on deploying responsible ML solutions and scalable pipelines that transform complex data into actionable product insights.",
   "experience": [
     {
       "company": "IBM VSIP",
-      "title": "Machine Learning Engineer Intern ",
+      "title": "Data Scientist Intern ",
       "link": "https://www.ibm.com/us-en",
       "date": "May 2025 – Aug 2025",
       "bullets": [
@@ -28,7 +28,7 @@
     },
     {
       "company": "KIST (Korea Institute of Science & Technology)",
-      "title": "Machine Learning Engineer",
+      "title": "Data Scientist",
       "link": "https://www.kist.re.kr/eng/index.do",
       "date": "Apr 2023 – Apr 2024",
       "bullets": [
@@ -39,7 +39,7 @@
     },
     {
       "company": "KISTEP (Korea Institute of Science & Technology Evaluation and Planning)",
-      "title": "Machine Learning Engineer",
+      "title": "Data Scientist",
       "link": "https://www.kistep.re.kr/eng/",
       "date": "Jan 2022 – Apr 2023",
       "bullets": [
@@ -49,7 +49,7 @@
     },
     {
       "company": "KIPF (Korea Institute of Public Finance)",
-      "title": "Machine Learning Engineer",
+      "title": "Data Scientist",
       "link": "https://www.kipf.re.kr/eng/index.do",
       "date": "Jun 2021 – Dec 2021",
       "bullets": [
@@ -59,7 +59,7 @@
     },
     {
       "company": "KIET (Korea Institute for Industrial Economics & Trade)",
-      "title": "Machine Learning Engineer",
+      "title": "Data Scientist",
       "link": "https://www.kiet.re.kr/",
       "date": "Jul 2020 – Apr 2021",
       "bullets": [
