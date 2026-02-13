@@ -2,7 +2,7 @@
   "name": "Jimin Park",
   "location": "Atlanta, GA",
   "school": "MSCS @ Georgia Tech",
-  "resume": "https://drive.google.com/file/d/11_CndNRo4037FK5fOGHv7y4b3F8I5PjB/view?usp=sharing",
+  "resume": "https://docs.google.com/document/d/1G7ZrYefsF0DwasGIu3w9zM4nHyB6JTSvJlEdKxETZlg/edit?usp=sharing",
   "contact": {
     "email": "ujpjm21@gmail.com",
     "phone": "(678)897-1816",
@@ -75,7 +75,8 @@
       "thumbnail": "/images/tiny_ml.png",
       "links": {
         "ppt": "https://drive.google.com/file/d/1sd_oeqig0TquTzAJt3anl_aWL-5aUZId/view?usp=sharing",
-        "pdf": "https://drive.google.com/file/d/1BD6aZgyqf-1SwFtNTs1dmEPYYSEiWMdV/view?usp=sharing"
+        "pdf": "https://drive.google.com/file/d/1BD6aZgyqf-1SwFtNTs1dmEPYYSEiWMdV/view?usp=sharing",
+        "github": "https://github.com/ujpjm30/Knowledge-Distillation-for-TinyML-Embedded-AI"
       },
       "description": {
         "bullets": [
@@ -90,7 +91,7 @@
       "thumbnail": "/images/llmonopoly.png",
       "links": {
         "ppt": "https://drive.google.com/file/d/1bOIWLVHag-TJEHgVwDr-6W4qOkbjYw16/view?usp=sharing",
-        "github": "https://github.com/ujpjm30/LLMonopoly"
+        "github": "https://github.com/ujpjm30/LLMONOPOLY_EMSEMBLE-MODEL"
       },
       "description": {
         "bullets": [
@@ -111,7 +112,7 @@
       "thumbnail": "/images/mouse_event.png",
       "links": {
         "pdf": "https://drive.google.com/file/d/1RjI7G1DJw_XMhIPSygPDxjSSjZpxrVgo/view?usp=sharing",
-        "github": "https://github.com/ujpjm30/Mouse-Event---ML"
+        "github": "https://github.com/ujpjm30/Detecting-User-Actions-from_Mouse-Events"
       },
       "description": {
         "bullets": [
@@ -157,7 +158,8 @@
       "name": "IEQ Prediction with Machine Learning",
       "thumbnail": "/images/kendeda.png",
       "links": {
-        "pdf": "https://drive.google.com/file/d/1uvozJv7PzcIBE-p2CtzHvZ23SUTs9CQR/view?usp=sharing"
+        "pdf": "https://drive.google.com/file/d/1uvozJv7PzcIBE-p2CtzHvZ23SUTs9CQR/view?usp=sharing",
+        "github": "https://github.com/ujpjm30/IEQ-Prediction-with-Machine-Learning"
       },
       "description": {
         "bullets": [
